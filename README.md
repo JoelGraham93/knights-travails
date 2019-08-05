@@ -24,6 +24,14 @@ Install the project dependencies using npm:
 $ npm i
 ```
 
+## Build project
+
+To build the project:
+
+```
+npm run build
+```
+
 ## Unit testing
 
 To run the unit tests:
