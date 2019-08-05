@@ -1,0 +1,23 @@
+{
+  "name": "knights-travails",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "dependencies": {
+    "typescript": "^3.5.3",
+    "yargs": "^13.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.16",
+    "@types/node": "^12.6.9",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "sp": "node build/index.js shortestPath"
+  },
+  "author": "",
+  "license": "ISC"
+}
